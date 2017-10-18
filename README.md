@@ -354,7 +354,7 @@ public abstract class BaseMvpFragment extends Fragment {
 
 ### 目录结构
 
-![](https://github.com/huangdali/MVPOptimize/master/blob/image/struct.png)
+![](https://github.com/huangdali/MVPOptimize/blob/master/image/struct.png)
 
 ### 登录界面
 ![](https://github.com/huangdali/MVPOptimize/blob/master/image/login.png)
@@ -787,7 +787,7 @@ public class LoginActivity extends BaseMvpActivity implements LoginContact.ILogi
 ```
 
 ### 输出结果：
-![](https://github.com/huangdali/MVPOptimize/master/blob/image/out.png)
+![](https://github.com/huangdali/MVPOptimize/blob/master/image/out.png)
 
 Demo地址：https://github.com/huangdali/MVPOptimize/
 
