@@ -2,7 +2,7 @@
 
 > 主要优化P层V层互相持有对象，不能及时回收/销毁问题
 
-如果你看过我的MVP整个教程[【android进阶篇】MVP+Retrofit+RxJava框架结合](http://blog.csdn.net/qq137722697/article/details/52212348) 你可能就会发现，如果页面在请求的时候，网络不好，这时用户跳转到其他页面，就可能会抛出空指针异常/空对象/内存泄露等问题；
+如果你看过我的MVP整合教程[【android进阶篇】MVP+Retrofit+RxJava框架结合](http://blog.csdn.net/qq137722697/article/details/52212348) 你可能就会发现，如果页面在请求的时候，网络不好，这时用户跳转到其他页面，就可能会抛出空指针异常/空对象/内存泄露等问题；
 
 ## 内存泄露追踪
 
