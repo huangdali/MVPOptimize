@@ -35,7 +35,7 @@ public class LoginPresenterIml implements LoginContact.ILoginPresenter {
 
 为什么要表明他们互相持有呢？
 
-因为即使页面finish之后，如果Presenter层还持有View层的引用，jvm不会马上回收，也就是说finish之后页面没有真正意思上的销毁；
+因为即使页面finish之后，如果Presenter层还持有View层的引用，jvm不会马上回收，也就是说finish之后页面没有真正意义上的销毁；
 
 那么问题就来了，既然没有销毁，如果这样没有销毁的页面太多，就会造成**内存泄露**；
 
